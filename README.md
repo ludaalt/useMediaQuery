@@ -2,7 +2,7 @@
 
 [![version](https://img.shields.io/npm/v/@ludaalt/react-responsive.svg)](https://www.npmjs.com/package/@ludaalt/react-responsive)
 
-## React -useMediaQuery
+## React - useMediaQuery
 
 Стек: react, typescript, rollup
 
@@ -22,7 +22,7 @@ https://www.npmjs.com/package/@ludaalt/react-responsive
 
 ```tsx
 import React from 'react';
-import { useMediaQuery } from '@my-npm-user/react-responsive';
+import { useMediaQuery } from '@ludaalt/react-responsive';
 
 const Example = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -52,7 +52,7 @@ const Example = () => {
 
 ```tsx
 import React from 'react';
-import MediaQuery from '@my-npm-user/react-responsive';
+import MediaQuery from '@ludaalt/react-responsive';
 
 const Example = () => (
   <div>
