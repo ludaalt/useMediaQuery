@@ -24,7 +24,7 @@ https://www.npmjs.com/package/@ludaalt/react-responsive
 import React from 'react';
 import { useMediaQuery } from '@ludaalt/react-responsive';
 
-const Example = () => {
+const HookExample = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 1224px)',
   });
@@ -54,7 +54,7 @@ const Example = () => {
 import React from 'react';
 import MediaQuery from '@ludaalt/react-responsive';
 
-const Example = () => (
+const ComponentExample = () => (
   <div>
     <h1>Device Test!</h1>
     <MediaQuery minWidth={1224}>
